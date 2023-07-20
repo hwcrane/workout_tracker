@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:workout_tracker/data/dao/exercise_dao.dart';
 import 'package:workout_tracker/widgets/exercise_list.dart';
-import 'package:workout_tracker/widgets/exercise_list_appbar.dart';
+import 'package:workout_tracker/widgets/exercise_appbar.dart';
 import '../models/exercise_model.dart';
 
 class ExerciseListPage extends StatefulWidget {
@@ -80,7 +80,7 @@ class _ExerciseListPageState extends State<ExerciseListPage> {
     return Scaffold(
       body: CustomScrollView(
         slivers: [
-          ExerciseListAppBar(
+          ExerciseAppBar(
             searchController: _searchController,
             bodyParts: _bodyParts,
             equipment: _equipment,
