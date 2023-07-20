@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:workout_tracker/exercise_list.dart';
+import 'package:workout_tracker/views/exercise_list.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class Wrapper extends StatefulWidget {
+  const Wrapper({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<Wrapper> createState() => _WrapperState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _WrapperState extends State<Wrapper> {
   int _selectedIndex = 0;
 
   @override

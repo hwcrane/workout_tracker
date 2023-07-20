@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'exercise.dart';
+import '../models/exercise_model.dart';
 
 class ExercisePage extends StatelessWidget {
   final Exercise exercise;
