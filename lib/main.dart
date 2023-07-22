@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'views/wrapper.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(useMaterial3: true),
       debugShowCheckedModeBanner: false,
-      home: const Wrapper(),
+      home: Scaffold(),
     );
   }
 }
